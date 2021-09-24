@@ -5,8 +5,13 @@ export default [
         component: () => import('@/views/apps/dashboard.vue')
     },
     {
-        name: "profile",
-        path: "/profile",
-        component: () => import('@/views/apps/profile.vue')
+        name: "posts",
+        path: "/posts",
+        component: () => import('@/views/apps/posts.vue')
+    },
+    {
+        name: "posts",
+        path: "/posts/:id",
+        component: () => import('@/views/apps/posts.vue')
     },
 ]
